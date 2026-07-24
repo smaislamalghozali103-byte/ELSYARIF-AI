@@ -1,0 +1,7 @@
+{
+  "name": "ELSYARIF AI",
+  "description": "An advanced multimodal AI workspace powered by Gemini models, Veo video, Lyria music, Live voice, TTS, and Google Docs integration.",
+  "requestFramePermissions": ["microphone", "camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
