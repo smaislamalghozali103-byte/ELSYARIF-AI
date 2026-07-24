@@ -15,6 +15,7 @@ import { GoogleDocsTab } from './components/GoogleDocsTab';
 import { GoogleCalendarTab } from './components/GoogleCalendarTab';
 import { GoogleSlidesTab } from './components/GoogleSlidesTab';
 import { GmailTab } from './components/GmailTab';
+import { SettingsTab } from './components/SettingsTab';
 import { ProfileTab } from './components/ProfileTab';
 import { AuthModal } from './components/AuthModal';
 
@@ -74,6 +75,7 @@ export default function App() {
         {activeTab === 'calendar' && <GoogleCalendarTab />}
         {activeTab === 'slides' && <GoogleSlidesTab />}
         {activeTab === 'gmail' && <GmailTab />}
+        {activeTab === 'settings' && <SettingsTab />}
         {activeTab === 'profile' && (
           <ProfileTab
             profile={user || { name: 'Guest', email: '', avatar: '', bio: '', interests: [] }}

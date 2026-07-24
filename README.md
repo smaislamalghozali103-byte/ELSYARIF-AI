@@ -13,6 +13,7 @@ ELSYARIF AI is an advanced multimodal AI workspace powered by Gemini models, Veo
 - **Google Calendar**: View upcoming calendar events and schedule new events.
 - **Google Slides**: Create and manage Google Slides presentations.
 - **Gmail**: Read inbox messages and send emails directly through Gmail API.
+- **Settings**: Input and manage personal Gemini API Key and Groq API Key directly from the UI.
 - **User Profile & Authentication**: Complete user profile section (avatar upload, bio, interests), email/password auth, and Google / Apple sign-in options.
 - **Vercel Ready**: Includes `vercel.json` configuration for seamless deployment on Vercel.
 

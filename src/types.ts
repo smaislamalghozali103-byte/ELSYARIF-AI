@@ -1,4 +1,4 @@
-export type ActiveTab = 'chat' | 'voice' | 'image' | 'video' | 'music' | 'docs' | 'calendar' | 'slides' | 'gmail' | 'profile';
+export type ActiveTab = 'chat' | 'voice' | 'image' | 'video' | 'music' | 'docs' | 'calendar' | 'slides' | 'gmail' | 'profile' | 'settings';
 
 export interface UserProfile {
   name: string;
