@@ -10,6 +10,9 @@ ELSYARIF AI is an advanced multimodal AI workspace powered by Gemini models, Veo
 - **Veo Video Studio**: Cinematic 16:9 and 9:16 video generation from text prompts.
 - **Music & TTS**: AI music track generation with Lyria and high-quality voice synthesis.
 - **Google Docs Workspace**: Connect with Google account to browse, create, and manage Google Docs.
+- **Google Calendar**: View upcoming calendar events and schedule new events.
+- **Google Slides**: Create and manage Google Slides presentations.
+- **Gmail**: Read inbox messages and send emails directly through Gmail API.
 - **User Profile & Authentication**: Complete user profile section (avatar upload, bio, interests), email/password auth, and Google / Apple sign-in options.
 - **Vercel Ready**: Includes `vercel.json` configuration for seamless deployment on Vercel.
 

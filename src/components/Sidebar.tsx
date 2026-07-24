@@ -1,6 +1,6 @@
 import React from 'react';
 import { ActiveTab, UserProfile } from '../types';
-import { MessageSquare, Mic, Image, Video, Music, FileText, Sparkles, User, LogIn } from 'lucide-react';
+import { MessageSquare, Mic, Image, Video, Music, FileText, Calendar, Presentation, Mail, Sparkles, User, LogIn } from 'lucide-react';
 
 interface SidebarProps {
   activeTab: ActiveTab;
@@ -17,6 +17,9 @@ export const Sidebar: React.FC<SidebarProps> = ({ activeTab, setActiveTab, user,
     { id: 'video', label: 'Veo Video', icon: <Video className="w-5 h-5" />, desc: 'AI cinematic video generation' },
     { id: 'music', label: 'Music & TTS', icon: <Music className="w-5 h-5" />, desc: 'Lyria tracks & speech synthesis' },
     { id: 'docs', label: 'Google Docs', icon: <FileText className="w-5 h-5" />, desc: 'Workspace Docs integration' },
+    { id: 'calendar', label: 'Google Calendar', icon: <Calendar className="w-5 h-5" />, desc: 'Workspace Calendar events' },
+    { id: 'slides', label: 'Google Slides', icon: <Presentation className="w-5 h-5" />, desc: 'Workspace Slides presentations' },
+    { id: 'gmail', label: 'Gmail', icon: <Mail className="w-5 h-5" />, desc: 'Workspace Gmail inbox & send' },
     { id: 'profile', label: 'User Profile', icon: <User className="w-5 h-5" />, desc: 'Avatar, bio & interests' },
   ];
 

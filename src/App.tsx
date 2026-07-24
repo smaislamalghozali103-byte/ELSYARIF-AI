@@ -12,6 +12,9 @@ import { ImageTab } from './components/ImageTab';
 import { VideoTab } from './components/VideoTab';
 import { AudioMusicTab } from './components/AudioMusicTab';
 import { GoogleDocsTab } from './components/GoogleDocsTab';
+import { GoogleCalendarTab } from './components/GoogleCalendarTab';
+import { GoogleSlidesTab } from './components/GoogleSlidesTab';
+import { GmailTab } from './components/GmailTab';
 import { ProfileTab } from './components/ProfileTab';
 import { AuthModal } from './components/AuthModal';
 
@@ -68,6 +71,9 @@ export default function App() {
         {activeTab === 'video' && <VideoTab />}
         {activeTab === 'music' && <AudioMusicTab />}
         {activeTab === 'docs' && <GoogleDocsTab />}
+        {activeTab === 'calendar' && <GoogleCalendarTab />}
+        {activeTab === 'slides' && <GoogleSlidesTab />}
+        {activeTab === 'gmail' && <GmailTab />}
         {activeTab === 'profile' && (
           <ProfileTab
             profile={user || { name: 'Guest', email: '', avatar: '', bio: '', interests: [] }}

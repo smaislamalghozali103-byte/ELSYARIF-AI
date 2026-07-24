@@ -1,4 +1,4 @@
-export type ActiveTab = 'chat' | 'voice' | 'image' | 'video' | 'music' | 'docs' | 'profile';
+export type ActiveTab = 'chat' | 'voice' | 'image' | 'video' | 'music' | 'docs' | 'calendar' | 'slides' | 'gmail' | 'profile';
 
 export interface UserProfile {
   name: string;
@@ -27,4 +27,29 @@ export interface GoogleDocItem {
   mimeType: string;
   webViewLink?: string;
 }
+
+export interface GoogleCalendarEvent {
+  id: string;
+  summary: string;
+  description?: string;
+  start?: { dateTime?: string; date?: string };
+  end?: { dateTime?: string; date?: string };
+  htmlLink?: string;
+}
+
+export interface GoogleSlideItem {
+  id: string;
+  title: string;
+  presentationId?: string;
+}
+
+export interface GmailMessageItem {
+  id: string;
+  threadId: string;
+  snippet?: string;
+  subject?: string;
+  from?: string;
+  date?: string;
+}
+
 
